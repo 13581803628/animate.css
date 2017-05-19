@@ -17,23 +17,21 @@ $ npm install animate.css --save
 ```
 
 ## 基本用法
-1. 在你的页面元素的`<head>`头中包含这个样式表
+1. 使用[CDNJS](https://cdnjs.com/libraries/animate.css)的版本
+```Html
+<head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+```
+或者在你的页面元素的`<head>`头中包含这个样式表
+```Html
+<head>
+    <link rel="stylesheet" href="animate.min.css">
+</head>
+```
+2. 将 `animated` 添加到你想要动画效果的元素`class`属性中。你还可以在`class`属性中添加`infinite`用于无限循环动画。
 
-  ```html
-      <head>
-            <link rel="stylesheet" href="animate.min.css">
-      </head>
-  ```
-      或者使用[CDNJS](https://cdnjs.com/libraries/animate.css)的版本
-  ```html
-      <head>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-      </head>
-  ```
-2. Add the class `animated` to the element you want to animate.
- You may also want to include the class `infinite` for an infinite loop.
-
-3. Finally you need to add one of the following classes:
+3. 最后，你可以添加以下动画类实现不同的动画效果：
 
   * `bounce`
   * `flash`
