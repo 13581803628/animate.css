@@ -1,34 +1,34 @@
-#Animate.css [![GitHub release](https://img.shields.io/github/release/daneden/animate.css.svg)](https://github.com/daneden/animate.css/releases) [![Build Status](https://travis-ci.org/WarenGonzaga/animate.css.svg?branch=master)](https://travis-ci.org/WarenGonzaga/animate.css) [![devDependencies Status](https://david-dm.org/WarenGonzaga/animate.css/dev-status.svg)](https://david-dm.org/WarenGonzaga/animate.css?type=dev) [![chat](https://img.shields.io/badge/chat-gitter-green.svg)](https://gitter.im/animate-css/Lobby)
+# Animate.css [![GitHub release](https://img.shields.io/github/release/daneden/animate.css.svg)](https://github.com/daneden/animate.css/releases) [![Build Status](https://travis-ci.org/WarenGonzaga/animate.css.svg?branch=master)](https://travis-ci.org/WarenGonzaga/animate.css) [![devDependencies Status](https://david-dm.org/WarenGonzaga/animate.css/dev-status.svg)](https://david-dm.org/WarenGonzaga/animate.css?type=dev) [![chat](https://img.shields.io/badge/chat-gitter-green.svg)](https://gitter.im/animate-css/Lobby)
 *Just-add-water CSS animation*
 
-`animate.css` is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
+`animate.css` 一系列酷炫，有趣和跨浏览器的动画，供您在项目中使用。非常适合用于重点提示、主页元素、滑块元素和一般需要增加奇特动画的元素。
 
-## Installation
+## 安装
 
-To install via Bower, simply do the following:
+通过 Bower 安装，只需要完成以下简单指令：
 
 ```bash
 $ bower install animate.css --save
 ```
-or you can install via npm:
+或者你可以通过 npm 安装：
 
 ```bash
 $ npm install animate.css --save
 ```
 
-##Basic Usage
-1. Include the stylesheet on your document's `<head>`
+## 基本用法
+1. 在你的页面元素的`<head>`头中包含这个样式表
 
   ```html
-  <head>
-    <link rel="stylesheet" href="animate.min.css">
-  </head>
+      <head>
+            <link rel="stylesheet" href="animate.min.css">
+      </head>
   ```
-  or use the version hosted by [CDNJS](https://cdnjs.com/libraries/animate.css)
-  ```html
-  <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  </head>
+      或者使用[CDNJS](https://cdnjs.com/libraries/animate.css)的版本
+  ```html
+      <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+      </head>
   ```
 2. Add the class `animated` to the element you want to animate.
  You may also want to include the class `infinite` for an infinite loop.
